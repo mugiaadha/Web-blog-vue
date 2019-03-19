@@ -82,63 +82,63 @@ Within the download you'll find the following directories and files:
 
 ```
 vue-material-dashboard
-â”œâ”€â”€ README.md
-â”œâ”€â”€ babel.config.js
-â”œâ”€â”€ package.json
-â”œâ”€â”€ postcss.config.js
-â”œâ”€â”€ public
-â”‚Â Â  â””â”€â”€ index.html
-â””â”€â”€ src
-    â”œâ”€â”€ App.vue
-    â”œâ”€â”€ assets
-    â”‚Â Â  â”œâ”€â”€ img
-    â”‚Â Â  â””â”€â”€ scss
-    â”‚Â Â      â”œâ”€â”€ material-dashboard.scss
-    â”‚Â Â      â””â”€â”€ md
-    â”œâ”€â”€ components
-    â”‚Â Â  â”œâ”€â”€ Cards
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ ChartCard.vue
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ NavTabsCard.vue
-    â”‚Â Â  â”‚Â Â  â””â”€â”€ StatsCard.vue
-    â”‚Â Â  â”œâ”€â”€ Dropdown.vue
-    â”‚Â Â  â”œâ”€â”€ NotificationPlugin
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ Notification.vue
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ Notifications.vue
-    â”‚Â Â  â”‚Â Â  â””â”€â”€ index.js
-    â”‚Â Â  â”œâ”€â”€ SidebarPlugin
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ SideBar.vue
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ SidebarLink.vue
-    â”‚Â Â  â”‚Â Â  â””â”€â”€ index.js
-    â”‚Â Â  â”œâ”€â”€ Tables
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ NavTabsTable.vue
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ OrderedTable.vue
-    â”‚Â Â  â”‚Â Â  â””â”€â”€ SimpleTable.vue
-    â”‚Â Â  â””â”€â”€ index.js
-    â”œâ”€â”€ globalComponents.js
-    â”œâ”€â”€ globalDirectives.js
-    â”œâ”€â”€ main.js
-    â”œâ”€â”€ material-dashboard.js
-    â”œâ”€â”€ pages
-    â”‚Â Â  â”œâ”€â”€ Dashboard.vue
-    â”‚Â Â  â”œâ”€â”€ Icons.vue
-    â”‚Â Â  â”œâ”€â”€ Layout
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ Content.vue
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ ContentFooter.vue
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ DashboardLayout.vue
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ MobileMenu.vue
-    â”‚Â Â  â”‚Â Â  â””â”€â”€ TopNavbar.vue
-    â”‚Â Â  â”œâ”€â”€ Maps.vue
-    â”‚Â Â  â”œâ”€â”€ Notifications.vue
-    â”‚Â Â  â”œâ”€â”€ TableList.vue
-    â”‚Â Â  â”œâ”€â”€ Typography.vue
-    â”‚Â Â  â”œâ”€â”€ UpgradeToPRO.vue
-    â”‚Â Â  â”œâ”€â”€ UserProfile
-    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ EditProfileForm.vue
-    â”‚Â Â  â”‚Â Â  â””â”€â”€ UserCard.vue
-    â”‚Â Â  â”œâ”€â”€ UserProfile.vue
-    â”‚Â Â  â””â”€â”€ index.js
-    â””â”€â”€ routes
-        â””â”€â”€ routes.js
++-- README.md
++-- babel.config.js
++-- package.json
++-- postcss.config.js
++-- public
+¦   +-- index.html
++-- src
+    +-- App.vue
+    +-- assets
+    ¦   +-- img
+    ¦   +-- scss
+    ¦       +-- material-dashboard.scss
+    ¦       +-- md
+    +-- components
+    ¦   +-- Cards
+    ¦   ¦   +-- ChartCard.vue
+    ¦   ¦   +-- NavTabsCard.vue
+    ¦   ¦   +-- StatsCard.vue
+    ¦   +-- Dropdown.vue
+    ¦   +-- NotificationPlugin
+    ¦   ¦   +-- Notification.vue
+    ¦   ¦   +-- Notifications.vue
+    ¦   ¦   +-- index.js
+    ¦   +-- SidebarPlugin
+    ¦   ¦   +-- SideBar.vue
+    ¦   ¦   +-- SidebarLink.vue
+    ¦   ¦   +-- index.js
+    ¦   +-- Tables
+    ¦   ¦   +-- NavTabsTable.vue
+    ¦   ¦   +-- OrderedTable.vue
+    ¦   ¦   +-- SimpleTable.vue
+    ¦   +-- index.js
+    +-- globalComponents.js
+    +-- globalDirectives.js
+    +-- main.js
+    +-- material-dashboard.js
+    +-- pages
+    ¦   +-- Dashboard.vue
+    ¦   +-- Icons.vue
+    ¦   +-- Layout
+    ¦   ¦   +-- Content.vue
+    ¦   ¦   +-- ContentFooter.vue
+    ¦   ¦   +-- DashboardLayout.vue
+    ¦   ¦   +-- MobileMenu.vue
+    ¦   ¦   +-- TopNavbar.vue
+    ¦   +-- Maps.vue
+    ¦   +-- Notifications.vue
+    ¦   +-- TableList.vue
+    ¦   +-- Typography.vue
+    ¦   +-- UpgradeToPRO.vue
+    ¦   +-- UserProfile
+    ¦   ¦   +-- EditProfileForm.vue
+    ¦   ¦   +-- UserCard.vue
+    ¦   +-- UserProfile.vue
+    ¦   +-- index.js
+    +-- routes
+        +-- routes.js
 ```
 
 
@@ -197,3 +197,5 @@ Dribbble: <https://dribbble.com/creativetim>
 Google+: <https://plus.google.com/+CreativetimPage>
 
 Instagram: <https://www.instagram.com/CreativeTimOfficial>
+# Web-blog-vue
+web blog vue
